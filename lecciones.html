@@ -1,198 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="favicon/fav1.png" type="image/x-icon">
-    <!-- link a CSS -->
-    <link rel="stylesheet" href="style.css">
-    <title>Centro Cultural Cantinflas</title>
-    <!-- Google Font 1 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <!-- Google Font 2 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon/fav1.png" type="image/x-icon">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- Google Font 1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- Google Font 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+
+  <!-- Animación CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Animación CDN 2 -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <title>Centro Cultural Cantinflas</title>
 </head>
 
+<header>
+
+  <section class="section-container fixed-top">
+
+    <!-- sección contacto -->
+    <div class="section-contacto">
+      <a href="contacto.html" class="contacto">CONTACTANOS!</a>
+
+      <div class="mail">
+        <a href="mailto:ajpagola@hotmail.com"><img src="imagenes/mail.png" width="24px" alt="logoCorreo"></a>
+      </div>
+      <div class="wapp">
+        <a href="https://wa.me/5491155272927"><img src="imagenes/wapp.png" width="24px" alt="logoWhatsapp"></a>
+      </div>
+    </div>
+
+    <!-- sección redes sociales -->
+    <div class="section-redes">
+
+      <p class="redes">Seguinos en nuestras redes sociales:</p>
+
+      <div class="instagram">
+        <a href="https://www.instagram.com/cccantinflas/" target="_blank"><img src="imagenes/instagram.png" width="22px"
+            alt="logoInstagram"></a>
+      </div>
+
+      <div class="youtube">
+        <a href="https://www.youtube.com/channel/UC8CkZzCdDmHL5gmXBtfC1wA" target="_blank"><img
+            src="imagenes/youtube.png" width="30px" height="24px" alt="logoYoutube"></a>
+      </div>
+
+      <div class="facebook">
+        <a href="https://www.facebook.com/search/top?q=centro%20cultural%20%22cantinflas%22" target="_blank"><img
+            src="imagenes/facebook.png" width="30px" alt="logoFacebook"></a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid animate__animated animate__bounce">
+      <a class="navbar-brand">
+        <img src="imagenes/logo.cantinflas.png" class="logo" alt="logoCantinflas">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end menu" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active home" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link home" href="nosotros.html">Nosotros</a>
+          <a class="nav-link home" href="escuela.html">Escuela de Música</a>
+          <a class="nav-link home" href="lecciones.html">Lecciones y talleres</a>
+          <a class="nav-link home" href="comunidad.html">Comunidad</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<div class="escuela-title animate__animated animate__flipInX">
+    <h2>Clases de RockandRoll</h2>
+</div>
+
+<h6 data-aos="zoom-in">
+    Profesores: Germán y Ana
+</h6>
+<p>Horarios Disponibles: LUN MAR MIE JUE VIE</p>
+
+<div class="animate__animated animate__swing lecciones-imag">
+<img src="imagenes/rock.jpg" alt="baileRock" width="60%">
+</div>
+
+
+<div class="escuela-title animate__animated animate__flipInX">
+  <h2>Dibujo e historietas</h2>
+</div>
+
+<h6 data-aos="zoom-in">
+  Profesor: Darío
+</h6>
+<p>Horarios Disponibles: LUN MAR MIE JUE VIE</p>
+
+<div class="animate__animated animate__swing lecciones-imag">
+<img src="imagenes/dibujo.jpg" alt="imgDibujo" width="60%">
+</div>
+
+<div class="escuela-title animate__animated animate__flipInX">
+  <h2>Taller de Yoga</h2>
+</div>
+
+<h6 data-aos="zoom-in">
+  Profesores: Ana y Deborah
+</h6>
+<p>Horarios Disponibles: LUN MAR MIE JUE VIE</p>
+
+<div class="animate__animated animate__swing lecciones-imag">
+<img src="imagenes/yoga.jpg" alt="imgYoga" width="60%">
+</div>
+
+
+
+
+
+
+
+<footer class="section-container">
+
+  <!-- sección contacto -->
+  <div class="section-contacto">
+    <a href="contacto.html" class="contacto">Centro Cultural Cantinflas ©</a>
+    </div>
+
+   <!-- sección redes sociales -->
+  <div class="section-redes">
+
+    <p class="redes">Seguinos en nuestras redes sociales:</p>
+
+    <div class="instagram">
+      <a href="https://www.instagram.com/cccantinflas/" target="_blank"><img src="imagenes/instagram.png" width="22px"
+          alt="logoInstagram"></a>
+    </div>
+
+    <div class="youtube">
+      <a href="https://www.youtube.com/channel/UC8CkZzCdDmHL5gmXBtfC1wA" target="_blank"><img
+          src="imagenes/youtube.png" width="30px" height="24px" alt="logoYoutube"></a>
+    </div>
+
+    <div class="facebook">
+      <a href="https://www.facebook.com/search/top?q=centro%20cultural%20%22cantinflas%22" target="_blank"><img
+          src="imagenes/facebook.png" width="30px" alt="logoFacebook"></a>
+    </div>
+
+  </div>
+
+</section>
+
+
+</footer>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
 <body>
-    <!-- estructura semantica HTML -->
 
-
-    <section class="section-container">
-
-        <!-- sección contacto -->
-        <div class="section-contacto">
-            <a href="contacto.html" class="contacto">CONTACTANOS!</a>
-
-            <div class="mail">
-                <a href="mailto:ajpagola@hotmail.com"><img src="imagenes/mail.png" width="24px" alt="logoCorreo"></a>
-            </div>
-            <div class="wapp">
-                <a href="https://wa.me/5491155272927"><img src="imagenes/wapp.png" width="24px" alt="logoWhatsapp"></a>
-            </div>
-        </div>
-
-        <!-- sección redes sociales -->
-        <div class="section-redes">
-
-            <p class="redes">Seguinos en nuestras redes sociales:</p>
-
-            <div class="instagram">
-                <a href="https://www.instagram.com/cccantinflas/" target="_blank"><img src="imagenes/instagram.png"
-                        width="22px" alt="logoInstagram"></a>
-            </div>
-
-            <div class="youtube">
-                <a href="https://www.youtube.com/channel/UC8CkZzCdDmHL5gmXBtfC1wA" target="_blank"><img
-                        src="imagenes/youtube.png" width="30px" height="24px" alt="logoYoutube"></a>
-            </div>
-
-            <div class="facebook">
-                <a href="https://www.facebook.com/search/top?q=centro%20cultural%20%22cantinflas%22"
-                    target="_blank"><img src="imagenes/facebook.png" width="30px" alt="logoFacebook"></a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- header -->
-    <header class="header-container">
-        <nav class="nav">
-
-            <!-- menu de navegación / secciones -->
-
-            <div class="logo">
-                <img src="imagenes/logo.cantinflas.png" alt="logoCantinflas">
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href="escuela.html">ESCUELA DE MUSICA</a>
-                    </li>
-                    <li>
-                        <a href="lecciones.html"><u>LECCIONES Y TALLERES</u></a>
-                    </li>
-
-                    <li>
-                        <a href="comunidad.html">COMUNIDAD</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-    </header>
-
-    <!-- Main-->
-
-    <div class="aquellos">
-
-        <img class="foto-lecciones" src="imagenes/aquellos.png" alt="logoAquellos">
-
-    </div>
-
-    <div class="separador-title">
-        <h2>Clases de RockandRoll</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-
-    <div class="separador-title">
-        <h2>Dibujo e Historietas</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-    <div class="separador-title">
-        <h2>Taller de Yoga</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-    <div class="separador-title">
-        <h2>Arte Reciclado</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-    <div class="separador-title">
-        <h2>Plástica para niños</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-
-    <div class="separador-title">
-        <h2>Macetas de cemento</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-    <div class="separador-title">
-        <h2>Bordado Mexicano</h2>
-    </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores tempora aut rem pariatur cum doloremque
-        natus assumenda vel fugit est nihil repellat, amet modi, ipsam quos odit quibusdam quisquam!</p>
-
-
-
-    <!-- Footer -->
-    <footer class="footer-container">
-
-        <!-- bloque 1 - logo -->
-        <div class="image-footer">
-            <img src="imagenes/footer.image.png" alt="claveSolFooter">
-        </div>
-
-        <div class="info-footer">
-            <p>Desarrollado por: AJP</p>
-
-
-        </div>
-
-        <!-- sección redes sociales -->
-        <div class="section-redes">
-
-            <p>Seguinos en nuestras redes sociales:</p>
-
-            <div class="instagram">
-                <a href="https://www.instagram.com/cccantinflas/" target="_blank"><img src="imagenes/instagram.png"
-                        width="22px" alt="logoInstagram"></a>
-            </div>
-
-            <div class="youtube">
-                <a href="https://www.youtube.com/channel/UC8CkZzCdDmHL5gmXBtfC1wA" target="_blank"><img
-                        src="imagenes/youtube.png" width="30px" height="24px" alt="logoYoutube"></a>
-            </div>
-
-            <div class="facebook">
-                <a href="https://www.facebook.com/search/top?q=centro%20cultural%20%22cantinflas%22"
-                    target="_blank"><img src="imagenes/facebook.png" width="30px" alt="logoFacebook"></a>
-            </div>
-
-        </div>
-
-        <!-- sección redes sociales -->
 </body>
 
 </html>

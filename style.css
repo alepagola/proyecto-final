@@ -16,15 +16,35 @@ a:active {
 
     .section-container {
         background-color: #F4FFFD;
-        display: inline-block;
+        width: 100vw;
     } 
+
+    .contacto{
+
+        font-size: 10px;
+        
+        }
+
+        .video{
+width: 100vw;
+
+}
+
+.lecciones-imag{
+
+    width: 100vw;
+
+
+}
+
+
 
 
   }
 
 .text {
 
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-size: 26px;
     margin-left: 10px;
 }
@@ -57,7 +77,7 @@ a:active {
 }
 
 .section-redes {
-    width: 500px;
+    width: 100vw;
     height: 32px;
     display: flex;
     align-items: center;
@@ -104,7 +124,6 @@ a:active {
     width: 40%;
     margin: 0 auto;
 }
-
 
 .menu {
     width: auto;
@@ -161,6 +180,36 @@ a:active {
     transition: all 1.2s;
 }
 
+
+.escuela-title {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Combo', cursive;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.escuela-title:hover {
+    color: skyblue;
+    transition: all 1.2s;
+    
+}
+
+.separador-title:hover {
+    color: skyblue;
+    transition: all 1.2s;
+    
+}
+
+.ultimo{
+
+margin-bottom: 200px;
+
+
+}
 .novedades-container {
     width: 100%;
     background-color: #F4FFFD;
