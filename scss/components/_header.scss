@@ -1,0 +1,50 @@
+.navbar {
+
+    .animate__animated.animate__bounce {
+        --animate-delay: 2s;
+    }
+
+
+    .logo {
+        width: auto;
+        height: 150px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        width: auto;
+        font-family: 'Combo', cursive;
+        font-size: 26px;
+        color: black;
+        font-weight: bold;
+        list-style: none;
+
+        .home {
+
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+
+            &:hover {
+                font-size: 36px;
+                transition: all 1s;
+                color: black;
+                background-size: 100% 2px;
+            }
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+}

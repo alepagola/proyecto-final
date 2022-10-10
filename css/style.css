@@ -1,0 +1,177 @@
+/* @import */
+.navbar .animate__animated.animate__bounce {
+  --animate-delay: 2s;
+}
+.navbar .logo {
+  width: auto;
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar .menu {
+  width: auto;
+  font-family: "Combo", cursive;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  list-style: none;
+}
+.navbar .menu .home {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.navbar .menu .home:hover {
+  font-size: 36px;
+  transition: all 1s;
+  color: black;
+  background-size: 100% 2px;
+}
+
+.separador-title {
+  display: flex;
+  align-items: center;
+  font-family: "Combo", cursive;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.separador-title:hover {
+  color: skyblue;
+  transition: all 1.2s;
+}
+.separador-title .text {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 26px;
+  margin-left: 10px;
+}
+.separador-title .ultimo {
+  margin-bottom: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.section-container {
+  background-color: #F4FFFD;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 710px) {
+  .section-container {
+    background-color: #F4FFFD;
+    width: 100vw;
+  }
+}
+.section-container .section-contacto {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.section-container .section-contacto .contacto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 710px) {
+  .section-container .section-contacto .contacto {
+    font-size: 10px;
+  }
+}
+.section-container .section-contacto .mail {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.section-container .section-contacto .wapp {
+  width: 24px;
+  height: auto;
+}
+.section-container .section-redes {
+  width: 100vw;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section-container .redes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 710px) {
+  .section-container .redes {
+    display: none;
+  }
+}
+.section-container .instagram {
+  margin-left: 10px;
+}
+.section-container .youtube {
+  margin-left: 2px;
+}
+.section-container .facebook {
+  width: 30px;
+}
+
+.escuela-title {
+  display: flex;
+  align-items: center;
+  font-family: "Combo", cursive;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.escuela-title:hover {
+  color: skyblue;
+  transition: all 1.2s;
+}
+
+.carousel-dimension {
+  margin: top 1200px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.novedades-container {
+  width: 100%;
+  background-color: #F4FFFD;
+  display: flex;
+  justify-content: center;
+}
+.novedades-container .separador-title {
+  display: flex;
+  align-items: center;
+  font-family: "Combo", cursive;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.novedades-img {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 60%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

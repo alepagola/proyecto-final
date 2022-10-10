@@ -1,0 +1,32 @@
+.separador-title {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Combo', cursive;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+&:hover{
+    color: skyblue;
+    transition: all 1.2s;
+}
+
+.text{
+
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 26px;
+    margin-left: 10px;
+
+
+}
+
+.ultimo{
+
+    margin-bottom: 200px;
+
+}
+
+
+}

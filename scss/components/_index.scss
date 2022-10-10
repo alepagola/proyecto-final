@@ -1,0 +1,36 @@
+.carousel-dimension {
+    margin: top 1200px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.novedades-container {
+    width: 100%;
+    background-color: #F4FFFD;
+    display: flex;
+    justify-content: center;
+
+    .separador-title {
+
+        display: flex;
+        align-items: center;
+        font-family: 'Combo', cursive;
+        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    
+}
+
+.novedades-img{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
