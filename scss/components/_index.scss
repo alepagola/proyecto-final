@@ -1,3 +1,6 @@
+@import '../base/variables';
+@import '../base/listas';
+
 .carousel-dimension {
     margin: top 1200px;
     width: 40%;
@@ -6,16 +9,14 @@
 
 .novedades-container {
     width: 100%;
-    background-color: #F4FFFD;
-    display: flex;
-    justify-content: center;
+    background-color: $bg-color-general;
+    @extend %flex;
 
     .separador-title {
 
-        display: flex;
-        align-items: center;
+        @include display-flex (flex, center, center);
         font-family: 'Combo', cursive;
-        font-size: 26px;
+        font-size: nth($font-size,4);
         margin-top: 20px;
         margin-bottom: 10px;
         margin-left: 10px;

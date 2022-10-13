@@ -1,4 +1,4 @@
-/* @import */
+/* @import */ /* Variables */
 .navbar .animate__animated.animate__bounce {
   --animate-delay: 2s;
 }
@@ -7,6 +7,7 @@
   height: 150px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 .navbar .menu {
   width: auto;
@@ -31,26 +32,38 @@
   background-size: 100% 2px;
 }
 
+/* Variables */
 .separador-title {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   font-family: "Combo", cursive;
-  font-size: 26px;
+  font-size: 36px;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-.separador-title:hover {
-  color: skyblue;
-  transition: all 1.2s;
-}
-.separador-title .text {
+
+.text {
   font-family: "Inter Tight", sans-serif;
   font-size: 26px;
   margin-left: 10px;
+  margin-right: 10px;
 }
-.separador-title .ultimo {
+@media only screen and (max-width: 710px) {
+  .text {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.ultimo {
   margin-bottom: 200px;
+}
+@media only screen and (max-width: 710px) {
+  .ultimo {
+    margin-bottom: 400px;
+  }
 }
 
 * {
@@ -62,6 +75,13 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
+}
+
+/* Variables */
+.novedades-container, .escuela-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-container {
@@ -79,6 +99,7 @@ a:active {
   width: 80%;
   height: 30px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 .section-container .section-contacto .contacto {
@@ -105,8 +126,8 @@ a:active {
   width: 100vw;
   height: 32px;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
+  align-items: center;
 }
 .section-container .redes {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -128,20 +149,20 @@ a:active {
   width: 30px;
 }
 
+/* Variables */
 .escuela-title {
-  display: flex;
-  align-items: center;
   font-family: "Combo", cursive;
   font-size: 26px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  margin-top: 20 px;
+  margin-bottom: 10 px;
+  margin-left: 10 px;
 }
 .escuela-title:hover {
   color: skyblue;
   transition: all 1.2s;
 }
 
+/* Variables */
 .carousel-dimension {
   margin: top 1200px;
   width: 40%;
@@ -151,11 +172,10 @@ a:active {
 .novedades-container {
   width: 100%;
   background-color: #F4FFFD;
-  display: flex;
-  justify-content: center;
 }
 .novedades-container .separador-title {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-family: "Combo", cursive;
   font-size: 26px;
@@ -172,6 +192,13 @@ a:active {
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Variables */
+.escuela-title, .novedades-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

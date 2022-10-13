@@ -1,3 +1,7 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/mixin';
+
 .navbar {
 
     .animate__animated.animate__bounce {
@@ -8,14 +12,13 @@
     .logo {
         width: auto;
         height: 150px;
-        display: flex;
-        justify-content: flex-start;
+        @include display-flex(flex, flex-start,center);
     }
 
     .menu {
         width: auto;
         font-family: 'Combo', cursive;
-        font-size: 26px;
+        font-size: nth($font-size , 4 );
         color: black;
         font-weight: bold;
         list-style: none;
@@ -30,7 +33,7 @@
             transition: background-size .3s;
 
             &:hover {
-                font-size: 36px;
+                font-size: nth($font-size , 5 );
                 transition: all 1s;
                 color: black;
                 background-size: 100% 2px;

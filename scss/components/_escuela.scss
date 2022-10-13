@@ -1,15 +1,18 @@
+@import '../base/variables';
+@import '../base/listas';
+
 .escuela-title {
 
-    display: flex;
-    align-items: center;
+    @extend %flex;
     font-family: 'Combo', cursive;
-    font-size: 26px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    font-size: nth($font-size, 4 );
+    margin-top: 20 px;
+    margin-bottom: 10 px;
+    margin-left: 10 px;
 
     &:hover {
-        color: skyblue;
+        color: $font-color-hover;
         transition: all 1.2s;
     }
 }
+
