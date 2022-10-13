@@ -3,7 +3,7 @@
 
 .escuela-title {
 
-    @extend %flex;
+    @include display-flex (flex, flex-start, center);
     font-family: 'Combo', cursive;
     font-size: nth($font-size, 4 );
     margin-top: 20 px;
@@ -14,5 +14,33 @@
         color: $font-color-hover;
         transition: all 1.2s;
     }
+
+
+
+
 }
 
+
+.escuela-profe{
+    font-size: nth($font-size, 3 );
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: underline;
+    
+    }
+
+    .horario-escuela{
+
+margin-left: 10px;
+
+
+    }
+
+.disponile-escuela{
+
+    margin-left: 10px;
+
+
+}
