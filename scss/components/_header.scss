@@ -4,11 +4,16 @@
 
 .navbar {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
     .animate__animated.animate__bounce {
         --animate-delay: 2s;
     }
 
-
+    
     .logo {
         width: auto;
         height: 150px;

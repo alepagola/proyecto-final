@@ -2,9 +2,17 @@
 @import '../base/listas';
 
 .carousel-dimension {
-    margin: top 1200px;
+   margin-top: 1200px;
     width: 40%;
     margin: 0 auto;
+
+    .image-carousel {
+
+    height: 650px;
+
+
+    }
+
 }
 
 .novedades-container {

@@ -1,4 +1,9 @@
 /* @import */ /* Variables */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar .animate__animated.animate__bounce {
   --animate-delay: 2s;
 }
@@ -184,9 +189,12 @@ a:active {
 
 /* Variables */
 .carousel-dimension {
-  margin: top 1200px;
+  margin-top: 1200px;
   width: 40%;
   margin: 0 auto;
+}
+.carousel-dimension .image-carousel {
+  height: 650px;
 }
 
 .novedades-container {
